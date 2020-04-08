@@ -31,7 +31,5 @@ print("enter the number yu want to sort:")
 input1=input().split()
 input1=[int(i) for i in input1]
 nlist=input1
- 
-# nlist = [3,1,4,1,5,9,2,6,5,4]
 mergeSort(nlist)
 print("sorted list are:",nlist)
